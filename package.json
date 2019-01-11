@@ -7,9 +7,14 @@
   "repository": "git@github.com:robinpokorny/gilded-rose-javascript.git",
   "author": "Robin Pokorny <me@robinpokorny.com>",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "validate": "jest --testRegex .validate.js"
   },
   "devDependencies": {
+    "djb2a": "1.0.0",
     "jest": "^23.0.0"
+  },
+  "dependencies": {
+    "prettier": "1.15.3"
   }
 }

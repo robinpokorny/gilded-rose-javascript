@@ -100,3 +100,23 @@ Most people would probably work in this order:
 3. Add unit tests for the new product, thinking about all edge cases
 4. Update the code to handle the new product and make tests pass
    </details>
+
+<details> <summary>How do I verify I fullfiled the task?</summary>
+
+The task has many edge cases. It can be easy to think you are done, but there could be regressions. In fact, that happened to me the first time I tried this kata.
+
+To be totaly sure you did a good job, I prepared a test, that will validate your solution.
+
+It is strongly recommended to run the validation only when you think you are done and the systems supports "Conjured" items.
+
+Run this command:
+
+```
+yarn validate
+```
+
+If it passed, congratulations! You did great!
+
+If it fails, do not worry. I was there, too. You might want to test few more edge cases on the original code. The text above does not tell you everything. Resist reverse-engineering the validation test.
+
+</details>
