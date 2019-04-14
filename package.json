@@ -11,10 +11,9 @@
     "validate": "jest --testRegex .validate.js"
   },
   "devDependencies": {
-    "djb2a": "1.0.0",
-    "jest": "^23.0.0"
+    "jest": "^24.7.1"
   },
   "dependencies": {
-    "prettier": "1.15.3"
+    "prettier": "^1.17.0"
   }
 }
