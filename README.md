@@ -1,4 +1,4 @@
-# Gilded Rose Refactoring Excersise in JavaScript
+# Gilded Rose Refactoring Exercise in JavaScript
 
 > **TL;DR:**
 > You inherited this NPM package for stock management. You are asked to add support for a new product. Feel free to refactor as you like.
