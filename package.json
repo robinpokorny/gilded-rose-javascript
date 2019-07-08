@@ -8,12 +8,9 @@
   "author": "Robin Pokorny <me@robinpokorny.com>",
   "scripts": {
     "test": "jest",
-    "validate": "jest --testRegex .validate.js"
+    "validate": "jest --testRegex _validate.js"
   },
   "devDependencies": {
     "jest": "^24.7.1"
-  },
-  "dependencies": {
-    "prettier": "^1.17.0"
   }
 }
